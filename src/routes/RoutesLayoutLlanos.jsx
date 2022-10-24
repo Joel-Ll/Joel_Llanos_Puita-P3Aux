@@ -10,7 +10,6 @@ import './RoutesLayoutLlanos.css';
 const RoutesLayoutLlanos = () => {
 
 	const [ darkMode, setDarkMode ] = useState(true);
-	
 	const handleClick = () => {
 		setDarkMode( !darkMode );
 	}
